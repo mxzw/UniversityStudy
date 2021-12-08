@@ -1,0 +1,7 @@
+ 一般Linux都自己安装了sqlite3的数据库，用之前自己可以先测试一下。
+
+ tar xvzf sqlite-autoconf-3071502.tar.gz
+ cd sqlite-autoconf-3071502
+ ./configure --prefix=/usr/local
+ make
+ make install

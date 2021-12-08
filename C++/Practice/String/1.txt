@@ -1,0 +1,10 @@
+string& operator=(const string& s)
+{
+    if(this != &s)
+    {
+        string tmp(s);
+        std::swap(_arr,tmp._arr);
+    }
+    return *this;
+}
+
